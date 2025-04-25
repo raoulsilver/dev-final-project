@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_wall",
-    "path":"sprites/spr_wall/spr_wall.yy",
+    "name":"spr_wall_hospital",
+    "path":"sprites/spr_wall_hospital/spr_wall_hospital.yy",
   },
   "spriteMaskId":null,
   "visible":true,
