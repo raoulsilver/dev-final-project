@@ -12,14 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cb9ecc08-8fb4-4397-b1e6-6df59fb9940b","name":"cb9ecc08-8fb4-4397-b1e6-6df59fb9940b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"35f30939-68ef-44e4-8118-976d3636f5e1","name":"35f30939-68ef-44e4-8118-976d3636f5e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1000,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d88fbc59-f6ac-4ae7-8177-fd19df4870e0","blendMode":0,"displayName":"default","isLocked":false,"name":"d88fbc59-f6ac-4ae7-8177-fd19df4870e0","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b9a08fa5-10a6-475e-9c2a-b473619649c3","blendMode":0,"displayName":"default","isLocked":false,"name":"b9a08fa5-10a6-475e-9c2a-b473619649c3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"da6d6e6b-f485-4fc5-873c-7538d88594c9","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"da6d6e6b-f485-4fc5-873c-7538d88594c9","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_doctorMushroom",
   "nineSlice":null,
@@ -63,12 +64,16 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1000.0,
+    "seqWidth":800.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"cb9ecc08-8fb4-4397-b1e6-6df59fb9940b","path":"sprites/spr_doctorMushroom/spr_doctorMushroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"c81a351e-a758-4b7c-ac73-364dac15a74d","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"35f30939-68ef-44e4-8118-976d3636f5e1","path":"sprites/spr_doctorMushroom/spr_doctorMushroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"1511bc15-3f77-415f-8870-cb2024cfd107","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

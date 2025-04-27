@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_npc1_dead",
-    "path":"sprites/spr_npc1_dead/spr_npc1_dead.yy",
+    "name":"spr_zombie_shroom_pixel",
+    "path":"sprites/spr_zombie_shroom_pixel/spr_zombie_shroom_pixel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

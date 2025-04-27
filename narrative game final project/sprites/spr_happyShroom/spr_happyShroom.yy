@@ -12,14 +12,15 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"04f01139-b03f-474d-ba8f-94289cc44548","name":"04f01139-b03f-474d-ba8f-94289cc44548","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"9398de23-7640-4826-b70a-9b2d45b9c40f","name":"9398de23-7640-4826-b70a-9b2d45b9c40f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":1000,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"b74b2e8c-6f57-4eba-ae81-ca691fbfe758","blendMode":0,"displayName":"default","isLocked":false,"name":"b74b2e8c-6f57-4eba-ae81-ca691fbfe758","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d6b909cb-6f46-4ed3-994f-519e683bafc3","blendMode":0,"displayName":"default","isLocked":false,"name":"d6b909cb-6f46-4ed3-994f-519e683bafc3","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"37f72b4c-782a-4747-8d94-a2d6da09fc4e","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"37f72b4c-782a-4747-8d94-a2d6da09fc4e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_happyShroom",
   "nineSlice":null,
@@ -63,12 +64,16 @@
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
+    "seqHeight":1000.0,
+    "seqWidth":800.0,
     "showBackdrop":true,
     "showBackdropImage":false,
     "timeUnits":1,
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{"0":{"$SpriteFrameKeyframe":"","Id":{"name":"04f01139-b03f-474d-ba8f-94289cc44548","path":"sprites/spr_happyShroom/spr_happyShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},},"Disabled":false,"id":"f8462eb2-f81e-4ec2-a7ac-6662c661198c","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"9398de23-7640-4826-b70a-9b2d45b9c40f","path":"sprites/spr_happyShroom/spr_happyShroom.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b133c85b-abce-434e-962b-a64e04c7b172","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
