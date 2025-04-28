@@ -104,6 +104,8 @@
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"spr_feet_skeleton","path":"sprites/spr_feet_skeleton/spr_feet_skeleton.yy",},},
     {"id":{"name":"spr_firepit_past","path":"sprites/spr_firepit_past/spr_firepit_past.yy",},},
+    {"id":{"name":"spr_first_person_get_shot_effect","path":"sprites/spr_first_person_get_shot_effect/spr_first_person_get_shot_effect.yy",},},
+    {"id":{"name":"spr_first_person_shoot_fire_effect","path":"sprites/spr_first_person_shoot_fire_effect/spr_first_person_shoot_fire_effect.yy",},},
     {"id":{"name":"spr_first_person_shoot","path":"sprites/spr_first_person_shoot/spr_first_person_shoot.yy",},},
     {"id":{"name":"spr_floor_future","path":"sprites/spr_floor_future/spr_floor_future.yy",},},
     {"id":{"name":"spr_floor_hospital","path":"sprites/spr_floor_hospital/spr_floor_hospital.yy",},},
