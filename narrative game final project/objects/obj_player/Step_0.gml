@@ -1,50 +1,56 @@
 depth = -y;
 
 // Collision with wall
-if (keyboard_check(ord("W")) and !place_meeting(x, y - move_speed, obj_collideables)) {
-	new_y = y - move_speed;
-	dir = "up";
-}
-if (keyboard_check(ord("S")) and !place_meeting(x, y + move_speed, obj_collideables)) {
-	new_y = y + move_speed;
-	dir = "down";
-}
-if (keyboard_check(ord("A")) and !place_meeting(x - move_speed, y, obj_collideables)) {
-	new_x = x - move_speed;
-	dir = "left";
-}
-if (keyboard_check(ord("D")) and !place_meeting(x + move_speed, y, obj_collideables)) {
-	new_x = x + move_speed;
-	dir = "right";
-}
+if (!obj_dialogue_manager.dialogue_open)
+{
+	if (keyboard_check(ord("W")) and !place_meeting(x, y - move_speed, obj_collideables)) {
+		new_y = y - move_speed;
+		dir = "up";
+	}
+	if (keyboard_check(ord("S")) and !place_meeting(x, y + move_speed, obj_collideables)) {
+		new_y = y + move_speed;
+		dir = "down";
+	}
+	if (keyboard_check(ord("A")) and !place_meeting(x - move_speed, y, obj_collideables)) {
+		new_x = x - move_speed;
+		dir = "left";
+	}
+	if (keyboard_check(ord("D")) and !place_meeting(x + move_speed, y, obj_collideables)) {
+		new_x = x + move_speed;
+		dir = "right";
+	}
 	
-if (new_x != x or new_y != y) {
-	if (dir == "up") {
-		sprite_index = spr_player_up;
-		image_xscale = xscale;
+	if (new_x != x or new_y != y) {
+		if (dir == "up") {
+			sprite_index = spr_player_up;
+			image_xscale = xscale;
+		}
+		if (dir == "down") {
+			sprite_index = spr_player_down;
+			image_xscale = xscale;
+		}
+		if (dir == "left") {
+			sprite_index = spr_player_side;
+			image_xscale = -xscale;
+		}
+		if (dir == "right") {
+			sprite_index = spr_player_side;
+			image_xscale = xscale;
+		}
+		image_speed = animation_speed;
+	} else {
+		image_speed = 0;
+		image_index = 1;
 	}
-	if (dir == "down") {
-		sprite_index = spr_player_down;
-		image_xscale = xscale;
-	}
-	if (dir == "left") {
-		sprite_index = spr_player_side;
-		image_xscale = -xscale;
-	}
-	if (dir == "right") {
-		sprite_index = spr_player_side;
-		image_xscale = xscale;
-	}
-	image_speed = animation_speed;
-} else {
-	image_speed = 0;
-	image_index = 1;
-}
 	
-x = new_x;
-y = new_y;
+	x = new_x;
+	y = new_y;
 
-image_yscale = yscale;
+	image_yscale = yscale;
+} else
+{
+	image_speed = 0;
+}
 
 // dialoge boxes
 if (keyboard_check_pressed(vk_space) and room == room_main) {

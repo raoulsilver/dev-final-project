@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_dialogue_interact, 0, window_get_width()/2, window_get_height() - 100, 0.6, 0.6, 0, c_white, alpha);
