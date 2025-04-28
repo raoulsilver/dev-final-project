@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":1,
   "conversionMode":0,
-  "duration":135.65216,
+  "duration":178.77551,
   "name":"easier_song",
   "parent":{
     "name":"Sounds",
@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"easier_song.wav",
   "type":1,
-  "volume":1.0,
+  "volume":0.22,
 }

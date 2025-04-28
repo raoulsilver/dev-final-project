@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.270833,
+  "duration":0.270839,
   "name":"dialogue_sound",
   "parent":{
     "name":"Sounds",

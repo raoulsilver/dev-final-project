@@ -1,3 +1,4 @@
+randomize();
 draw_toggle = 1;
 dialogue_open = false;
 
@@ -28,6 +29,23 @@ function open_dialogue()
 	changing_character_sprite = false;
 	change_character_sprite_to = "";
 	active_character_sprite = asset_get_index(dialogue_lines[current_line].sprite);
+}
+
+function speak()
+{
+	for (i = 1; i <= 11; i++)
+	{
+		audio_stop_sound(asset_get_index("talk_" + string(i)));
+	}
+	talk_index = string("talk_" + string(round(random_range(0, 11))));
+	audio_play_sound(asset_get_index(talk_index), 1, 0, 0.1);
+}
+function kill_speak()
+{
+	for (i = 1; i <= 11; i++)
+	{
+		audio_stop_sound(asset_get_index("talk_" + string(i)));
+	}
 }
 
 
@@ -79,6 +97,9 @@ global.dialogue_scenes = {
 	current_line = 0;
 	dialogue_lines = global.dialogue_scenes.first_scene;
 	current_dialogue = dialogue_lines[current_line].text;
+	
+	queue_speak = true;
+	
 	text_box_lerp_offset = 220;
 	character_sprite_lerp_offset = window_get_height();
 	fade_in_alpha = 0;
