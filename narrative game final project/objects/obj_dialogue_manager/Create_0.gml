@@ -56,13 +56,13 @@ global.dialogue_scenes = {
 	    { text: "Shroom: 'I don't wanna die...'.", sprite: spr_sadShroom },
 	    { text: "You: 'Do not worry baby. I will do whatever to help you.'", sprite: spr_happyProtagonist },
 	    { text: "Shroom: 'I got an antidote recipe from my ancestors. Maybe it helps.'", sprite: spr_neutralShroom },
-		{ text: "'You need to grab me [10 green mushrooms] in the forest and make them into a glass of mushroom juice.'", sprite: spr_neutralShroom },
+		{ text: "'You need to grab me [10 pink mushrooms] in the forest and make them into a glass of mushroom juice.'", sprite: spr_neutralShroom },
 		{ text: "'I will feel much better with that.'", sprite: spr_neutralShroom },
 		{ text: "You: 'I got you.'", sprite: spr_happyProtagonist },
     ],
     
     second_scene: [
-		{ text: "'Thank you baby for making this.'", sprite: spr_neutralShroom },
+		{ text: "Shroom:'Thank you baby for making this.'", sprite: spr_neutralShroom },
 		{ text: "'*Drink*'", sprite: spr_neutralShroom },
 		{ text: "Doctor Shroom: 'What did you just give him?'", sprite: spr_doctorMushroom },
 		{ text: "'Patient seems to have overdosed on mushrooms and his heartbeat stops just now.'", sprite: spr_doctorMushroom },

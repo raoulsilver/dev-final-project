@@ -1,0 +1,1 @@
+mushroom_number = 0;

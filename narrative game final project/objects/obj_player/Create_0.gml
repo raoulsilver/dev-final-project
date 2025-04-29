@@ -5,11 +5,13 @@ new_y = y;
 
 dir = "down";
 
-key_acquired = false;
+key_acquired = true;
 
 animation_speed = 0.3;
 
 current_dialogue = noone; // logs what npc you are talking to
+
+
 
 image_speed = 0;
 

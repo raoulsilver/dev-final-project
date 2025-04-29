@@ -53,25 +53,25 @@ if (!obj_dialogue_manager.dialogue_open)
 }
 
 // dialoge boxes
-if (keyboard_check_pressed(vk_space) and room == room_main) {
-	instance_destroy(obj_dialogue);
-	if (point_distance(x, y, obj_npc1.x, obj_npc1.y) < 50) {
-		if (key_acquired) {
-			current_dialogue = 2;
-		} else {
-			current_dialogue = 1;
-		}
-		instance_create_layer(camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0])/2), camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0])/3.5), "Instances", obj_dialogue);
-		audio_play_sound(dialogue_sound, 1, 0);
-	}
-		if (point_distance(x, y, obj_npc2.x, obj_npc2.y) < 50) {
-		current_dialogue = 3;
-		instance_create_layer(camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0])/2), camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0])/3.5), "Instances", obj_dialogue);
-		audio_play_sound(dialogue_sound, 1, 0);
-	}
+//if (keyboard_check_pressed(vk_space) and room == room_main) {
+//	instance_destroy(obj_dialogue);
+//	if (point_distance(x, y, obj_npc1.x, obj_npc1.y) < 50) {
+//		if (key_acquired) {
+//			current_dialogue = 2;
+//		} else {
+//			current_dialogue = 1;
+//		}
+//		instance_create_layer(camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0])/2), camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0])/3.5), "Instances", obj_dialogue);
+//		audio_play_sound(dialogue_sound, 1, 0);
+//	}
+//		if (point_distance(x, y, obj_npc2.x, obj_npc2.y) < 50) {
+//		current_dialogue = 3;
+//		instance_create_layer(camera_get_view_x(view_camera[0]) + (camera_get_view_width(view_camera[0])/2), camera_get_view_y(view_camera[0]) + (camera_get_view_height(view_camera[0])/3.5), "Instances", obj_dialogue);
+//		audio_play_sound(dialogue_sound, 1, 0);
+//	}
 
 	
-}
+//}
 
 // collisions
 if (place_meeting(x, y, obj_key)) {
