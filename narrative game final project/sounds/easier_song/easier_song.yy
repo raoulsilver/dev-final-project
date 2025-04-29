@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"easier_song.wav",
   "type":1,
-  "volume":0.22,
+  "volume":0.21,
 }
