@@ -11,10 +11,6 @@ if (!obj_dialogue_manager.dialogue_open) // if dialogue is closed
 			first_scene_done = true;
         }
     } else
-    {
-        alpha = lerp(alpha, 0, 0.2);
-    }
-	
 	 if (point_distance(obj_player.x, obj_player.y, obj_npc2.x, obj_npc2.y) < 200 and obj_mushroom_manager.mushroom_number == 10)
     {
 		game_state = 2;
