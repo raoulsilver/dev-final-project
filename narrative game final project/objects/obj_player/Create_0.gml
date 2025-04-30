@@ -11,6 +11,7 @@ animation_speed = 0.3;
 
 current_dialogue = noone; // logs what npc you are talking to
 
+colliding_time_machine = false;
 
 
 image_speed = 0;

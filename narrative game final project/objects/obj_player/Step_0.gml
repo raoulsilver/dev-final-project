@@ -87,8 +87,13 @@ if (place_meeting(x, y, obj_door_collision)) {
 		global.door_opened = true;
 	}
 }
-if (place_meeting(x, y, obj_time_machine_door_collision)) {
-	room_goto(room_time_machine);
+if(place_meeting(x, y, obj_time_machine_door_collision)) {
+	colliding_time_machine = true;
+	if(obj_dialogue_interact.second_scene_done && obj_dialogue_interact.time_machine_conv_done)
+		room_goto(room_time_machine);
+	
+}else{
+	colliding_time_machine = false;
 }
 
 // game end
