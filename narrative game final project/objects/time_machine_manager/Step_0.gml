@@ -1,24 +1,36 @@
 
 
 if (obj_player.y > 1900) {
-	obj_player.x = 2476;
-	obj_player.y = 2630;
-	obj_player.new_x = obj_player.x;
-	obj_player.new_y = obj_player.y;
 	obj_player.xscale = 1.5;
 	obj_player.yscale = 1.5;
 	if (global.time == "present") {
+<<<<<<< Updated upstream
 		if(obj_dialogue_interact.past_scene_done)
 		{
 			room_goto(room_main_2);
 		}else{
 			room_goto(room_main);
 		}
+=======
+		obj_player.x = 2459;
+		obj_player.y = 2073;
+		obj_player.new_x = obj_player.x;
+		obj_player.new_y = obj_player.y;
+		room_goto(room_main);
+>>>>>>> Stashed changes
 	}
 	if (global.time == "future") {
+		obj_player.x = 2331;
+		obj_player.y = 1392;
+		obj_player.new_x = obj_player.x;
+		obj_player.new_y = obj_player.y;
 		room_goto(room_future);
 	}
 	if (global.time == "past") {
+		obj_player.x = 2326;
+		obj_player.y = 1379;
+		obj_player.new_x = obj_player.x;
+		obj_player.new_y = obj_player.y;
 		room_goto(room_past);
 	}
 	
