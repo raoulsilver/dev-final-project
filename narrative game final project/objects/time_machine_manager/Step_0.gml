@@ -1,8 +1,8 @@
 
 
 if (obj_player.y > 1900) {
-	obj_player.x = 2323;
-	obj_player.y = 1395;
+	obj_player.x = 2476;
+	obj_player.y = 2630;
 	obj_player.new_x = obj_player.x;
 	obj_player.new_y = obj_player.y;
 	obj_player.xscale = 1.5;

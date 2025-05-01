@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"win_sound",
+  "%Name":"mushroom_collect_sound",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":0,
+  "compression":1,
   "conversionMode":0,
-  "duration":1.3463038,
-  "name":"win_sound",
+  "duration":1.0559864,
+  "name":"mushroom_collect_sound",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"win_sound.wav",
-  "type":0,
-  "volume":0.63,
+  "soundFile":"mushroom_collect_sound.mp3",
+  "type":1,
+  "volume":1.0,
 }

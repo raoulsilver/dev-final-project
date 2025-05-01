@@ -18,6 +18,7 @@ continue_icon_alpha = 0; // starts invisible
 
 function open_dialogue()
 {
+	audio_play_sound(dialogue_sound, 1, 0); // sound effect for opening dialogue
 	text_progress = 0;
 	current_line = 0;
 	current_dialogue = dialogue_lines[current_line].text;

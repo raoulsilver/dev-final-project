@@ -57,6 +57,7 @@
     {"name":"door_sound","order":2,"path":"sounds/door_sound/door_sound.yy",},
     {"name":"easier_song","order":4,"path":"sounds/easier_song/easier_song.yy",},
     {"name":"key_sound","order":1,"path":"sounds/key_sound/key_sound.yy",},
+    {"name":"mushroom_collect_sound","order":7,"path":"sounds/mushroom_collect_sound/mushroom_collect_sound.yy",},
     {"name":"talk_10","order":9,"path":"sounds/talk_10/talk_10.yy",},
     {"name":"talk_11","order":10,"path":"sounds/talk_11/talk_11.yy",},
     {"name":"talk_2","order":1,"path":"sounds/talk_2/talk_2.yy",},

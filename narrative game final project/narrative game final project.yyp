@@ -82,6 +82,7 @@
     {"id":{"name":"door_sound","path":"sounds/door_sound/door_sound.yy",},},
     {"id":{"name":"easier_song","path":"sounds/easier_song/easier_song.yy",},},
     {"id":{"name":"key_sound","path":"sounds/key_sound/key_sound.yy",},},
+    {"id":{"name":"mushroom_collect_sound","path":"sounds/mushroom_collect_sound/mushroom_collect_sound.yy",},},
     {"id":{"name":"talk_1","path":"sounds/talk_1/talk_1.yy",},},
     {"id":{"name":"talk_10","path":"sounds/talk_10/talk_10.yy",},},
     {"id":{"name":"talk_11","path":"sounds/talk_11/talk_11.yy",},},
