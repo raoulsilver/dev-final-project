@@ -72,3 +72,8 @@ if (dialogue_open)
 	character_sprite_lerp_offset = lerp(character_sprite_lerp_offset, window_get_height(), 0.08);
 	fade_in_alpha = lerp(fade_in_alpha, 0, 0.015);
 }
+
+if (dialogue_open and keyboard_check_pressed(ord("O")))
+{
+	close_dialogue();
+}
