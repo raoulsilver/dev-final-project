@@ -97,13 +97,13 @@ if(place_meeting(x, y, obj_time_machine_door_collision)) {
 }
 
 // game end
-if (point_distance(x, y, 1669, 290) < 30) {
-	audio_play_sound(win_sound, 1, 0);
-	global.time = "present";
-	global.door_opened = "false";
-	audio_stop_sound(easier_song);
-	room_goto(room_begin);
-	instance_destroy();
-}
+//if (point_distance(x, y, 1669, 290) < 30) {
+//	audio_play_sound(win_sound, 1, 0);
+//	global.time = "present";
+//	global.door_opened = "false";
+//	audio_stop_sound(easier_song);
+//	room_goto(room_begin);
+//	instance_destroy();
+//}
 
 //show_debug_message("x = " + string(x) + " y = " + string(y));
