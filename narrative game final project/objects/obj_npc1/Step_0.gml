@@ -13,12 +13,24 @@ if (chase_started)
     // Move away from player if too close
     if (dist < safe_distance) {
         var dir = point_direction(player_x, player_y, x, y);
-        x += lengthdir_x(chase_speed, dir);
-        y += lengthdir_y(chase_speed, dir);
+		if (!place_meeting(x + lengthdir_x(chase_speed, dir), y, obj_collideables))
+		{
+			x += lengthdir_x(chase_speed, dir);
+		}
+		if (!place_meeting(x, y + lengthdir_y(chase_speed, dir), obj_collideables))
+		{
+			y += lengthdir_y(chase_speed, dir);
+		}
     } else {
         var dir = point_direction(player_x, player_y, x, y);
-        x += lengthdir_x(chase_speed/2.5, dir);
-        y += lengthdir_y(chase_speed/2.5, dir);
+		if (!place_meeting(x + lengthdir_x(chase_speed/2.5, dir), y, obj_collideables))
+		{
+			x += lengthdir_x(chase_speed/2.5, dir);
+		}
+		if (!place_meeting(x, y + lengthdir_y(chase_speed/2.5, dir), obj_collideables))
+		{
+			y += lengthdir_y(chase_speed/2.5, dir);
+		}
     }
 
     // check if you catch young shroom
