@@ -106,4 +106,4 @@ if (point_distance(x, y, 1669, 290) < 30) {
 	instance_destroy();
 }
 
-show_debug_message("x = " + string(x) + " y = " + string(y));
+//show_debug_message("x = " + string(x) + " y = " + string(y));

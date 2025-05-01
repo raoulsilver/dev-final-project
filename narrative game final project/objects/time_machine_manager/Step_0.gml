@@ -8,7 +8,12 @@ if (obj_player.y > 1900) {
 	obj_player.xscale = 1.5;
 	obj_player.yscale = 1.5;
 	if (global.time == "present") {
-		room_goto(room_main);
+		if(obj_dialogue_interact.past_scene_done)
+		{
+			room_goto(room_main_2);
+		}else{
+			room_goto(room_main);
+		}
 	}
 	if (global.time == "future") {
 		room_goto(room_future);

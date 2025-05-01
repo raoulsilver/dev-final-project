@@ -68,6 +68,7 @@ if (!obj_dialogue_manager.dialogue_open) // if dialogue is closed
 	        {
 	            obj_dialogue_manager.dialogue_lines = global.dialogue_scenes.post_chase_scene_dark_shroom;
 	            obj_dialogue_manager.open_dialogue();
+				past_scene_done = true;
 				obj_npc1.alarm[0] = 35;
 	        }
 	    } else
