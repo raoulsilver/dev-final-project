@@ -32,6 +32,27 @@ function open_dialogue()
 	active_character_sprite = asset_get_index(dialogue_lines[current_line].sprite);
 }
 
+function close_dialogue()
+{
+	text_progress = 0;
+	current_line = 0;
+	text_box_lerp_offset = 220;
+	character_sprite_lerp_offset = window_get_height();
+	fade_in_alpha = 0;
+	continue_icon_alpha = 0;
+	dialogue_open = false;
+	changing_character_sprite = false;
+	change_character_sprite_to = "";
+	active_character_sprite = asset_get_index(dialogue_lines[current_line].sprite);
+	
+	text_progress = 0;
+	continue_icon_alpha = 0;
+	queue_speak = true;
+	text_box_lerp_offset = 220
+	character_sprite_lerp_offset = window_get_height();
+	fade_in_alpha = 0;
+}
+
 function speak()
 {
 	for (i = 1; i <= 11; i++)
@@ -91,6 +112,9 @@ global.dialogue_scenes = {
 		{ text: "Young Shroom: 'Give me back!'", sprite: spr_madShroom },
 		{ text: "You: *Swallow the whole mushroom*", sprite: spr_madProtagonist },
 		{ text: "Young Shroom: 'No!!!'", sprite: spr_sadShroom },
+    ],
+	post_chase_scene_dark_shroom: [
+		{ text: "...", sprite: spr_scaryHappyShroom },
     ],
 };
 

@@ -1,0 +1,1 @@
+obj_dialogue_manager.close_dialogue();

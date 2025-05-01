@@ -3,6 +3,7 @@ depth = -y;
 if (chase_started)
 {
 	image_speed = 0.4;
+	chase_timer--;
 
     // Distance from player
     var player_x = obj_player.x;
@@ -21,7 +22,7 @@ if (chase_started)
     }
 
     // check if you catch young shroom
-    if (point_distance(x, y, player_x, player_y) < 50) {
+    if (point_distance(x, y, player_x, player_y) < 50 and chase_timer < 0) {
         chase_started = false;
         obj_dialogue_manager.dialogue_lines = global.dialogue_scenes.post_chase_scene;
 		obj_dialogue_manager.open_dialogue();

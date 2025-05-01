@@ -61,6 +61,16 @@ if (!obj_dialogue_manager.dialogue_open) // if dialogue is closed
 			obj_npc1.chase_started = true;
 			game_state = 3;
 		} else
+		if (game_state == 3 and !obj_npc1.chase_started and third_scene_done and point_distance(obj_player.x, obj_player.y, obj_npc1.x, obj_npc1.y) < 200)
+	    {
+	        alpha = lerp(alpha, 0.6, 0.05);
+	        if (keyboard_check_pressed(vk_space) and (!obj_dialogue_manager.dialogue_open))
+	        {
+	            obj_dialogue_manager.dialogue_lines = global.dialogue_scenes.post_chase_scene_dark_shroom;
+	            obj_dialogue_manager.open_dialogue();
+				obj_npc1.alarm[0] = 45;
+	        }
+	    } else
 		// dim interact popup
 	    {
 	        alpha = lerp(alpha, 0, 0.2);
