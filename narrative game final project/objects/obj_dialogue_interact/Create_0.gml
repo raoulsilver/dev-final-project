@@ -17,3 +17,4 @@ third_scene_done = false;
 
 past_scene_done = false;
 room_main_second_done = false;
+a_bool = false;
