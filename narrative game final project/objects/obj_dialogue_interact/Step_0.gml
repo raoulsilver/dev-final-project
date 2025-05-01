@@ -77,6 +77,24 @@ if (!obj_dialogue_manager.dialogue_open) // if dialogue is closed
 	        alpha = lerp(alpha, 0, 0.2);
 	    }
 	}
+	
+	if(room == room_main_2)
+	{
+		if (!room_main_second_done)
+	    {
+	        alpha = lerp(alpha, 0.6, 0.05);
+	        if (keyboard_check_pressed(vk_space) and (!obj_dialogue_manager.dialogue_open))
+	        {
+	            obj_dialogue_manager.dialogue_lines = global.dialogue_scenes.optional_fourth_scene;
+	            obj_dialogue_manager.open_dialogue();
+				room_main_second_done = true;
+	        }
+	    }else
+		{
+	        alpha = lerp(alpha, 0, 0.2);
+	    }
+	}
+	
 }
 
 // fade out interact button thing

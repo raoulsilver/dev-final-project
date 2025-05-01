@@ -12,4 +12,8 @@ second_scene_done = false;
 time_machine_conv_done = false;
 third_scene_done = false;
 
+
+
+
 past_scene_done = false;
+room_main_second_done = false;

@@ -116,6 +116,13 @@ global.dialogue_scenes = {
 	post_chase_scene_dark_shroom: [
 		{ text: "...", sprite: spr_scaryHappyShroom },
     ],
+	
+	optional_fourth_scene: [
+		{ text: "You: 'Seems like no one is here.'", sprite: spr_sadProtagonist },
+		{ text: "'I should go to other places to find Shroom'", sprite: spr_sadProtagonist },
+		
+    ],
+	
 };
 
 // just for beginning

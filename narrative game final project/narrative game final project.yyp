@@ -181,8 +181,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"room_begin","path":"rooms/room_begin/room_begin.yy",},},
     {"roomId":{"name":"room_main_2","path":"rooms/room_main_2/room_main_2.yy",},},
+    {"roomId":{"name":"room_begin","path":"rooms/room_begin/room_begin.yy",},},
     {"roomId":{"name":"room_main","path":"rooms/room_main/room_main.yy",},},
     {"roomId":{"name":"room_time_machine","path":"rooms/room_time_machine/room_time_machine.yy",},},
     {"roomId":{"name":"room_future","path":"rooms/room_future/room_future.yy",},},
