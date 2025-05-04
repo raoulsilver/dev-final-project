@@ -23,7 +23,13 @@ if (obj_player.y > 1900) {
 		obj_player.y = 1392;
 		obj_player.new_x = obj_player.x;
 		obj_player.new_y = obj_player.y;
-		room_goto(room_future);
+		if(obj_dialogue_interact.past_scene_done)
+		{
+			room_goto(room_future);
+		}else{
+			room_goto(room_future_2);
+		}
+		
 	}
 	if (global.time == "past") {
 		obj_player.x = 2326;

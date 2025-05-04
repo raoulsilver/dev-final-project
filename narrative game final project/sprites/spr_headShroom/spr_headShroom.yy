@@ -19,8 +19,7 @@
   "height":1000,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"555e0181-3aa6-4cc8-8b34-4089cd0f5148","blendMode":0,"displayName":"default","isLocked":false,"name":"555e0181-3aa6-4cc8-8b34-4089cd0f5148","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"727dcc6b-884e-419b-9139-53d8b3873f73","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"727dcc6b-884e-419b-9139-53d8b3873f73","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"8ede6d00-c305-4e0c-a5ca-4ef16fe80a4b","blendMode":0,"displayName":"default","isLocked":false,"name":"8ede6d00-c305-4e0c-a5ca-4ef16fe80a4b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_headShroom",
   "nineSlice":null,

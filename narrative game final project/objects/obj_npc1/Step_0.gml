@@ -38,6 +38,7 @@ if (chase_started)
         chase_started = false;
         obj_dialogue_manager.dialogue_lines = global.dialogue_scenes.post_chase_scene;
 		obj_dialogue_manager.open_dialogue();
+		obj_dialogue_interact.past_scene_done = true;
 		image_speed = 0;
 		image_index = 0;
     }

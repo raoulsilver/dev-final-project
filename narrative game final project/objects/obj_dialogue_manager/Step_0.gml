@@ -44,8 +44,11 @@ if (dialogue_open)
 		        current_dialogue = dialogue_lines[current_line].text; // Load next text here
 			} else
 			{
-				dialogue_open = false;
-				kill_speak();
+				if(!obj_dialogue_interact.ninth_scene_done)
+				{
+					dialogue_open = false;
+					kill_speak();
+				}
 			}
 			if (active_character_sprite != asset_get_index(dialogue_lines[current_line].sprite))
 			{

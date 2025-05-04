@@ -10,7 +10,8 @@ draw_sprite_ext(spr_text_box, 0, 0, 0 + text_box_lerp_offset, 1, 1, 0, c_white, 
 
 // drawing dialogue
 var current_text = string_copy(current_dialogue, 1, floor(text_progress));
-draw_set_font(font_dialogue)
+draw_set_font(font_dialogue);
+
 draw_set_halign(fa_center);
 draw_set_color(c_ltgray);
 draw_text_ext(window_get_width()/2, window_get_height() + text_offset + text_box_lerp_offset, string(current_text), 30, window_get_width() - 400);

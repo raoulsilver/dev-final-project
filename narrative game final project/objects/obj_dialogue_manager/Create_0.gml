@@ -14,6 +14,8 @@ text_offset = -170;
 show_continue_icon = false;
 continue_icon_alpha = 0; // starts invisible
 
+
+
 // for dialogue
 
 function open_dialogue()
@@ -101,6 +103,12 @@ global.dialogue_scenes = {
 		{ text: "'You: 'Maybe I should take this'", sprite: spr_happyProtagonist },
     ],
 	
+	optional_future_scene: [
+		{ text: "You: 'My beautiful lover is dead...'", sprite: spr_sadProtagonist },
+		{ text: "'I must go to bring Shroom back!'", sprite: spr_madProtagonist },
+		
+    ],
+	
     third_scene: [
 		{ text: "'Young Shroom: 'Such a good day for taking my mushroom outside'", sprite: spr_happyShroom },
 		{ text: "'Hi baby, you wanna join me?'", sprite: spr_happyShroom },
@@ -122,6 +130,40 @@ global.dialogue_scenes = {
 		{ text: "'I should go to other places to find Shroom'", sprite: spr_sadProtagonist },
 		
     ],
+	
+	fifth_scene: [
+		{ text: "Ghost Shroom: 'Ittt’s yΘц!! --", sprite: spr_ZombieShroom },
+		{ text: "You: 'What the fuck happened?'", sprite: spr_sadProtagonist },
+		{ text: "Ghost Shroom: 'TнΣ -=-days   bΣcΘмΣs sΘ dΣpЯΣssιng ωιτнΘцτ мцsнЯΘΘм...", sprite: spr_ZombieShroom },
+		{ text: "'αt òηΣ  pΘιητ/ IIIII  нΔvΣ /τΘ\  kιll  мysЁlF.'", sprite: spr_ZombieShroom },
+		{ text: "You: 'I don’t understand. I wanted to save you.'", sprite: spr_sadProtagonist },
+		{ text: "Ghost Shroom: '///yòц ??Wаnná bΣ TнЁ SáVιΘя?'", sprite: spr_ZombieShroom },
+		{ text: "'y○u\\T┢hInkkkＫ//yΘц\\Cаи// а℃tцαLLч   sávΣ    áиyòиΣ?'", sprite: spr_ZombieShroom },
+		{ text: "'yΘu    JǚsT    DёsTRò=ED    -m-y-    LīfΣ'", sprite: spr_ZombieShroom },
+		{ text: "'I ↭௸↭ HATE ↭௸↭ YOU !'", sprite: spr_madZombieShroom },
+    ],
+	
+	
+	sixth_scene: [
+		{ text:"YΘц --  ωιn!" ,sprite: spr_headShroom},
+		{ text:"YΘц//sTιll...?? lΘvΣ мΣ,... rIgнτ?" ,sprite: spr_headShroom},
+		{ text:"TΘ bΣ нΘηΣsτ... III sTιll lΘvΣ yΘц." ,sprite: spr_headShroom},
+		{ text:"SSOЅΘ..." ,sprite: spr_headShroom},
+		{ text:"Stá γ WITH MΣ нΣяΣ... ƑΘЯΣVΣЯ, plΣásΣ..." ,sprite: spr_headShroom},
+	],
+	
+	seventh_scene: [
+		{ text:"FΘЯΣVΣR..." ,sprite: spr_headShroom_1},
+	],
+	
+	eighth_scene: [
+		{ text:"ánd..." ,sprite: spr_headShroom_2}
+	],
+	
+	ninth_scene: [
+		{ text:"ΣVΣR." ,sprite: spr_headShroom_3}
+	],
+	
 	
 };
 

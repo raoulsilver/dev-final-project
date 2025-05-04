@@ -1,7 +1,7 @@
 depth = -y;
 
 // Collision with wall
-if (!obj_dialogue_manager.dialogue_open)
+if (!obj_dialogue_manager.dialogue_open && !obj_dialogue_interact.enter_boss_fight)
 {
 	if (keyboard_check(ord("W")) and !place_meeting(x, y - move_speed, obj_collideables)) {
 		new_y = y - move_speed;
@@ -95,6 +95,7 @@ if(place_meeting(x, y, obj_time_machine_door_collision)) {
 }else{
 	colliding_time_machine = false;
 }
+
 
 // game end
 //if (point_distance(x, y, 1669, 290) < 30) {
