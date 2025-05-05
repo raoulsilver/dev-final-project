@@ -32,10 +32,12 @@ if(obj_dialogue_interact.enter_boss_fight && !obj_dialogue_interact.boss_fight_d
 		fire = true;
 		Xpos = device_mouse_x_to_gui(0);
 		Ypos = device_mouse_y_to_gui(0);
+		audio_play_sound(gun_sound, 1, 0, 0.5);
 
 		if((point_in_rectangle (device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), window_get_width()/2 - collision_box_width/4, 250, window_get_width()/2 + collision_box_width/4, window_get_height()/2 + 100)) || (point_in_rectangle (device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), window_get_width()/2 - 100, 0,  window_get_width()/2 + 60, 200)) || (point_in_rectangle (device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), window_get_width()/2 - 20, 150,  window_get_width()/2 + 20, 250)))
 		{
-		
+			audio_stop_sound(yell_sound);
+			audio_play_sound(yell_sound, 1, 0, 0.5);
 			shot_position_x[hit_times] = Xpos;
 			shot_position_y[hit_times] = Ypos;
 			//ds_list_add(shot_position_x, Xpos);

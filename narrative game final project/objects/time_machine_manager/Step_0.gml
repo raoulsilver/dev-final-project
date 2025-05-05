@@ -11,6 +11,7 @@ if (obj_player.y > 1900) {
 //<<<<<<< Updated upstream
 		if(obj_dialogue_interact.past_scene_done)
 		{
+			audio_play_sound(horror_sound, 1, 0, 0.4);
 			room_goto(room_main_2);
 		}else{
 			room_goto(room_main);

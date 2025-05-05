@@ -43,9 +43,22 @@ if (!obj_dialogue_manager.dialogue_open && !obj_dialogue_interact.enter_boss_fig
 		image_index = 1;
 	}
 	
+	if (x != new_x or y != new_y)
+	{
+		if (footstep_countdown <= 0)
+		{
+			var footstep_index = string("footstep_" + string(round(random_range(1, 6))));
+			audio_play_sound(asset_get_index(footstep_index), 1, 0, 0.3);
+			footstep_countdown = footstep_countdown_duration;
+		} else
+		{
+			footstep_countdown --;
+		}
+	}
+	
 	x = new_x;
 	y = new_y;
-
+	
 	image_yscale = yscale;
 } else
 {

@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"footstep_2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":1,
+  "conversionMode":0,
+  "duration":0.68283445,
+  "name":"footstep_2",
+  "parent":{
+    "name":"footsteps",
+    "path":"folders/Sounds/footsteps.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"footstep_2.wav",
+  "type":1,
+  "volume":1.0,
+}
