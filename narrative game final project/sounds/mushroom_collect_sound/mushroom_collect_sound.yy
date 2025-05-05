@@ -21,5 +21,5 @@
   "sampleRate":44100,
   "soundFile":"mushroom_collect_sound.mp3",
   "type":1,
-  "volume":1.0,
+  "volume":0.34,
 }

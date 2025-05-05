@@ -1,16 +1,16 @@
 {
   "$GMSound":"",
-  "%Name":"yell_sound",
+  "%Name":"firepit_sound",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
-  "compression":1,
+  "compression":0,
   "conversionMode":0,
-  "duration":1.0559864,
-  "name":"yell_sound",
+  "duration":54.97,
+  "name":"firepit_sound",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"yell_sound.mp3",
-  "type":1,
-  "volume":0.52,
+  "soundFile":"firepit_sound.mp3",
+  "type":0,
+  "volume":1.0,
 }

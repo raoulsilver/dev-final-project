@@ -18,6 +18,7 @@ seventh_scene_done = false;
 eighth_scene_done = false;
 ninth_scene_done = false;
 gun_scene_done = false;
+chase_done = false;
 
 boss_fight_done = false;
 
